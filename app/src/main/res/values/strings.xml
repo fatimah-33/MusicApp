@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="info_activity_my_music">This screen shows list of the songs available in the application if the user click one song it will direct him to the playing activity. The user can search for the song from the searching bar.</string>
+    <string name="song_name">Song Name</string>
+    <string name="info_activity_now_playing">This screen shows the playing song. It will display the song name and the playing button. There is a progress bar that shows the length of the song. The user can return back to the songs list by clicking in the back button.</string>
+   <string name="info_activity_payment">This screen shows the payment process for a music. MPL Mobile Payment Library, is a library that support the integration of PayPal pay. MPL library help users to complete
+   their purchases through the mobile application, without need for opening website for doing it. So, this library provide a clickable button to users' account in PayPal and they can complete their payment purchases. Once the user complete their payment. Once the user complete his/her payment process he/she will be directed back to the application.
+   You have to download the library MPL SDK https://github.com/paypal/sdk-packages/tree/gh-pages/MPL </string>
+    <string name="info_activity_my_album">This screen shows list of albums that created by the users to store their favorite songs in categories if the user click into an album it will direct the user into the list of songs</string>
+</resources>

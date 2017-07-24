@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_album"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="app.qadheeb.fatimah.musicapp.MyAlbum">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/info_text_my_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_activity_my_album" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/album_image_view_one"
+                style="@style/AlbumIcon"
+                android:drawableTop="@drawable/classic_music"
+                android:text="Classic Music"
+                />
+            <TextView
+                android:id="@+id/album_image_view_two"
+                style="@style/AlbumIcon"
+                android:drawableTop="@drawable/love_music"
+                android:text="Love Music" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/album_image_view_three"
+                style="@style/AlbumIcon"
+                android:drawableTop="@drawable/rock_music"
+                android:text="Rock Music" />
+            <TextView
+                android:id="@+id/album_image_view_four"
+                style="@style/AlbumIcon"
+                android:drawableTop="@drawable/dancing_music"
+                android:text="Dancing Music" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/album_image_view_five"
+                style="@style/AlbumIcon"
+                android:drawableTop="@drawable/sport_music"
+                android:text="Sport Music" />
+            <TextView
+                android:id="@+id/album_image_view_six"
+                style="@style/AlbumIcon"
+                android:drawableTop="@drawable/sleep_muisc"
+                android:text="Sleep Music" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/my_album_back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="back" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
