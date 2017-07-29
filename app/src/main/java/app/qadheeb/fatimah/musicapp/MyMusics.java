@@ -8,11 +8,13 @@ import android.widget.Button;
 
 public class MyMusics extends AppCompatActivity {
 private Button backButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_musics);
         backButton=(Button)findViewById(R.id.my_music_back_button);
+
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -20,6 +22,7 @@ private Button backButton;
                 startActivity(intent);
             }
         });
+
     }
     public void openMusic(View view){
         Intent intent =new Intent(this,NowPlaying.class);

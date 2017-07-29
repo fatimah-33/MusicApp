@@ -15,20 +15,17 @@
         android:id="@+id/my_music_button"
         style="@style/ButtonMainActivity"
         android:layout_width="match_parent"
-        android:onClick="openActivityMyMusic"
         android:text="My Musics" />
     <Button
         android:id="@+id/my_albums_button"
         style="@style/ButtonMainActivity"
         android:layout_width="match_parent"
         android:layout_marginTop="10dp"
-        android:onClick="openActivityMyAlbum"
         android:text="My Albums" />
     <Button
         android:id="@+id/payment_button"
         style="@style/ButtonMainActivity"
         android:layout_width="match_parent"
         android:layout_marginTop="10dp"
-        android:onClick="openActivityPayment"
         android:text="Payment" />
 </LinearLayout>
